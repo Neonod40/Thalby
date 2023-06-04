@@ -30,8 +30,6 @@ header {
 }
 
 header .conteiner {
-    /*max-width: 1060px;*/
-    /*width: calc(1060px - (100vw - 1060px) + (100vw - 1060px) );*/
     align-items: center;
     padding: 15px 0;
 }
@@ -90,18 +88,15 @@ header .logo {
 /*- - -  --  --  --  -- - - - */
 
 .main_banner {
-    height: calc(100vh - 56px);
     background-color: #F0EFEB;
-    min-height: 554px;
     padding-top: 90px;
+    padding-bottom: 90px;
     position: relative;
     width: 100%;
     justify-content: center;
 }
 
 .main_banner .conteiner {
-    /*max-width: 1064px;*/
-    /*width: calc(1060px - (100vw - 1060px) + (100vw - 1060px));*/
 }
 
 .main_banner article {
@@ -109,11 +104,9 @@ header .logo {
 }
 
 .main_banner h1 {
-    font-family: 'Roboto';
+    font: 60px/70px 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 70px;
     color: #000000;
     margin-bottom: 42px;
 }
@@ -127,11 +120,9 @@ header .logo {
 }
 
 .main_banner a {
-    font-family: 'Roboto';
+    font: 17px/20px 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
     background: #000000;
@@ -143,7 +134,7 @@ header .logo {
 .main_banner .main_banner_img {
     position: absolute;
     top: 9px;
-    left: calc(50vw + 73px);
+    left: calc(50vw + 67px);
 }
 
 /*- - -  --  --  --  -- - - - */
@@ -161,7 +152,8 @@ header .logo {
     align-items: center;
     flex-direction: column;
 }
-.our_guides article{
+
+.our_guides article {
     max-width: 650px;
     justify-content: stretch;
 }
@@ -182,31 +174,34 @@ header .logo {
     text-align: center;
     color: #000000;
 }
+
 .our_guides article p:first-of-type {
     margin-bottom: 47px;
 }
+
 .our_guides article p:last-of-type {
     margin-bottom: 87px;
 }
-.our_guides article h2:last-of-type{
+
+.our_guides article h2:last-of-type {
     margin-bottom: 52px;
 }
 
-.our_guides .best_sellers article{
-    justify-content: center;
-}
 .our_guides .best_sellers .seller {
     margin: 0 31px 27px 31px;
 }
-.our_guides .best_sellers .seller img{
+
+.our_guides .best_sellers .seller img {
     margin-bottom: 27px;
 }
-.our_guides .best_sellers .seller .seller_item{
+
+.our_guides .best_sellers .seller .seller_item {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.our_guides .best_sellers h5{
+
+.our_guides .best_sellers h5 {
     font: 17px/20px 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -214,15 +209,17 @@ header .logo {
     color: #000000;
     margin-bottom: 17px;
 }
-.our_guides .best_sellers p{
+
+.our_guides .best_sellers p {
     font: 17px/20px 'Roboto';
     font-style: normal;
     font-weight: 400;
     text-align: center;
     color: #000000;
-    margin-bottom: 10   px;
+    margin-bottom: 10px;
 }
-.our_guides .best_sellers a{
+
+.our_guides .best_sellers a {
     display: flex;
     font: 17px/20px 'Roboto';
     font-style: normal;
