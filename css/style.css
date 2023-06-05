@@ -14,75 +14,61 @@
     justify-content: center;
 }
 
-.alighn-i_start {
-    align-items: start;
-}
-
-.conteiner {
-    width: calc(1060px - (100vw - 1060px) + (100vw - 1060px));
-}
 
 header {
     background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
     position: relative;
 }
 
 header .conteiner {
-    align-items: center;
-    padding: 15px 0;
-}
-
-header .conteiner nav {
     display: flex;
+    max-width: 1060px;
+    margin: auto;
     justify-content: space-between;
-    align-items: center;
 }
 
-.header_1 {
+header nav{
+padding: 15px 0;
 }
 
-.header_1 ul {
+header nav ul {
     display: flex;
-    align-items: center;
 }
 
-.header_1 ul li {
+header nav ul li {
     margin-right: 28px;
 }
 
-.header_1 ul li a {
+header nav ul li a {
     font: 16px/26px 'Roboto';
     font-style: normal;
     font-weight: 700;
     color: #1C1B1B;
     text-decoration: none;
-    align-items: center;
 }
 
-.header_2 {
+header .header {
+
 }
 
-.header_2 ul {
+header .header ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.header_2 li {
+.header li {
     margin-right: 7px;
 }
 
-.header_2 li:first-of-type {
+.header li:first-of-type {
     margin-right: 15px;
 }
 
 header .logo {
     position: absolute;
     right: calc(50vw - 40px);
-    top: 27px;
-    display: flex;
+    top: 16px;
 }
 
 /*- - -  --  --  --  -- - - - */
@@ -92,11 +78,11 @@ header .logo {
     padding-top: 90px;
     padding-bottom: 90px;
     position: relative;
-    width: 100%;
-    justify-content: center;
 }
 
 .main_banner .conteiner {
+    max-width: 1060px;
+    margin: auto;
 }
 
 .main_banner article {
@@ -141,21 +127,18 @@ header .logo {
 
 .our_guides {
     background: #FFFFFF;
-    width: 100%;
-    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 90px;
 }
 
 .our_guides .conteiner {
-    padding-top: 60px;
-    padding-bottom: 90px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    max-width: 1060px;
+    margin: auto;
 }
 
 .our_guides article {
     max-width: 650px;
-    justify-content: stretch;
+    margin: auto;
 }
 
 .our_guides article h2 {
