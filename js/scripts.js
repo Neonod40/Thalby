@@ -3,15 +3,18 @@ $(document).ready(function(){
         loop:true,
         margin:10,
         nav:true,
-/*        autoplay:true,
-        autoplayTimeout:2000,*/
+        // autoplay:true,
+        // autoplayTimeout:2000,
         navText: [ '', ' ' ],
 
         responsive:{
             0:{
                 items:1
             },
-            1060:{
+            768:{
+                items:2
+            },
+            1100:{
                 items:3
             }
         }

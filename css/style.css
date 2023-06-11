@@ -35,7 +35,7 @@ header nav ul {
     display: flex;
 }
 
-header nav ul li {
+header nav ul li{
     margin-right: 28px;
 }
 
@@ -47,23 +47,21 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header .header {
-
+header .h_item {
+padding-top: 18px;
 }
 
-header .header ul {
+header .h_item ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.header li {
-    margin-right: 7px;
+header .h_item ul li {
+    margin-right: 28px;
 }
 
-.header li:first-of-type {
-    margin-right: 15px;
-}
+
 
 header .logo {
     position: absolute;
@@ -94,6 +92,7 @@ header .logo {
     font-style: normal;
     font-weight: 700;
     color: #000000;
+    margin-top: 0;
     margin-bottom: 42px;
 }
 
@@ -105,7 +104,7 @@ header .logo {
     margin-bottom: 26px;
 }
 
-.main_banner a {
+.main_banner .conteiner a {
     font: 17px/20px 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -227,7 +226,7 @@ header .logo {
     height: 106px;
     position: absolute;
     left: -20px;
-    top: 300px;
+    top: 200px;
 }
 
 .best_sellers .owl-nav .owl-next {
@@ -236,5 +235,5 @@ header .logo {
     height: 106px;
     position: absolute;
     right: -20px;
-    top: 300px;
+    top: 200px;
 }

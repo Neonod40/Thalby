@@ -3,39 +3,127 @@
         left: calc(50vw);
     }
 }
+
 @media only screen and (max-width: 1200px) {
     .main_banner .main_banner_img {
         left: calc(47vw);
     }
 }
+
 @media only screen and (max-width: 1150px) {
     .main_banner {
         position: static;
         padding-top: 50px;
         padding-bottom: 40px;
     }
+
     .main_banner .main_banner_img {
         display: none;
     }
+
     .main_banner article {
-     margin: auto;
+        margin: auto;
     }
+
     .main_banner h1 {
-        display: flex;
-        justify-content: center;
+        text-align: center;
         margin-bottom: 22px;
     }
+
+    .main_banner .conteiner article p {
+        text-align: center;
+
+    }
+
+    .main_banner .conteiner article a {
+        text-align: center;
+        display: block;
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .our_guides {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     .our_guides article p:first-of-type {
         margin-bottom: 27px;
     }
+
     .our_guides article p:last-of-type {
         margin-bottom: 27px;
     }
+
     .our_guides article h2:last-of-type {
         margin-bottom: 27px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .owl-carousel .owl-item img {
+        display: unset;
+        width: max-content;
+    }
+
+    .best_sellers .owl-nav .owl-prev {
+        width: 38px;
+        height: 106px;
+        left: 0;
+        top: 250px;
+    }
+
+    .best_sellers .owl-nav .owl-next {
+        width: 38px;
+        height: 106px;
+        right: 0;
+        top: 250px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    header nav {
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    header nav ul {
+        display: block;
+    }
+
+    header .h_item ul {
+        display: block;
+    }
+
+    header .h_item ul li {
+        margin-bottom: 8px;
+    }
+
+    header .logo {
+        top: 46px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .our_guides article p {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .our_guides article h2 {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .main_banner h1 {
+        padding: 0 15px;
+    }
+
+    .main_banner p {
+        padding: 0 15px;
     }
 }
