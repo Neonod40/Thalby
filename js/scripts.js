@@ -3,8 +3,8 @@ $(document).ready(function(){
         loop:true,
         margin:10,
         nav:true,
-        // autoplay:true,
-        // autoplayTimeout:2000,
+        autoplay:true,
+        autoplayTimeout:2000,
         navText: [ '', ' ' ],
 
         responsive:{
